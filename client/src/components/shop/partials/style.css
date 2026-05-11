@@ -1,0 +1,23 @@
+.userDropdown {
+  display: none;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.2s ease-in-out;
+}
+
+.userDropdownBtn:hover .userDropdown {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content {
+  padding-top: 80px; /* Adjusted for new navbar height */
+}
+
+@media (min-width: 1024px) {
+  .content {
+    padding-top: 100px;
+  }
+}
+

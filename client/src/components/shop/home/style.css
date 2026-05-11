@@ -1,0 +1,46 @@
+.slider {
+  -webkit-appearance: none;
+  height: 12px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 75%;
+  background: #b7791f;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 75%;
+  background: #b7791f;
+  cursor: pointer;
+}
+
+/* Custom Carousel Dots */
+.custom-dots {
+  bottom: 20px !important;
+}
+
+.custom-dots li button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  border: 2px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+.custom-dots li.slick-active button {
+  background: #fff !important;
+  width: 14px !important;
+  height: 14px !important;
+}
