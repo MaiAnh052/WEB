@@ -14,7 +14,7 @@ import "./style.css";
 const { TabPane } = Tabs;
 
 const ProductDetailsSectionTwo = (props) => {
-  const { data, dispatch } = useContext(ProductDetailsContext);
+  const { dispatch } = useContext(ProductDetailsContext);
   const { data: layoutData } = useContext(LayoutContext);
   const [singleProduct, setSingleproduct] = useState({});
 

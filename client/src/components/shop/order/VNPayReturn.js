@@ -53,7 +53,6 @@ const VNPayReturn = () => {
   
   const vnpResponseCode = params.get("vnp_ResponseCode");
   const vnpTransactionNo = params.get("vnp_TransactionNo");
-  const vnpAmount = params.get("vnp_Amount");
   
   const isPaymentSuccess = vnpResponseCode === "00";
   const finalOrderId = confirmedOrderId || orderId;

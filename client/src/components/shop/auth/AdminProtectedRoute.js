@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
-import { isAuthenticate, isAdmin } from "./fetchApi";
+import { isAuthenticate } from "./fetchApi";
 
 const AdminProtectedRoute = ({ component: Component, ...rest }) => (
   <Route

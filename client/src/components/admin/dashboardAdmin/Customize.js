@@ -46,7 +46,7 @@ const Customize = () => {
 };
 
 const UploadImageSection = () => {
-  const { data, dispatch } = useContext(DashboardContext);
+  const { dispatch } = useContext(DashboardContext);
 
   const uploadImageHandler = (file) => {
     if (file) {

@@ -9,7 +9,6 @@ import {
   LogoutOutlined,
   SettingOutlined,
   FileTextOutlined,
-  DashboardOutlined,
   MenuOutlined,
 } from "@ant-design/icons";
 import "./style.css";

@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useContext } from "react";
 import moment from "moment";
-import { Card, Tag, Spin, Empty, Row, Col, Divider, Typography, Space, Badge } from "antd";
+import { Card, Tag, Spin, Empty, Row, Col, Divider, Typography, Space } from "antd";
 import {
   ShoppingOutlined,
   PhoneOutlined,
@@ -17,7 +17,6 @@ import Layout, { DashboardUserContext } from "./Layout";
 import { formatVND } from "../../../utils/formatCurrency";
 
 const { Title, Text } = Typography;
-const { Meta } = Card;
 const apiURL = process.env.REACT_APP_API_URL;
 
 // Hàm lấy màu và icon cho status

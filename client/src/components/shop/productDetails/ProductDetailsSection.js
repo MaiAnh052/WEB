@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect, useContext } from "react";
 import { useHistory, useParams } from "react-router-dom";
-import { Row, Col, Spin, Empty, Button, InputNumber, Rate, Tag, Space, Card, Image, message } from "antd";
+import { Row, Col, Spin, Empty, Button, InputNumber, Rate, Tag, Space, Card, message } from "antd";
 import { HeartOutlined, HeartFilled, LeftOutlined, RightOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 import { ProductDetailsContext } from "./index";
 import { LayoutContext } from "../layout";
@@ -11,7 +11,7 @@ import { getSingleProduct } from "./FetchApi";
 import { cartListProduct } from "../partials/FetchApi";
 
 import { isWishReq, unWishReq, isWish } from "../home/Mixins";
-import { updateQuantity, slideImage, addToCart, cartList } from "./Mixins";
+import { slideImage, addToCart, cartList } from "./Mixins";
 import { totalCost } from "../partials/Mixins";
 import { formatVND } from "../../../utils/formatCurrency";
 

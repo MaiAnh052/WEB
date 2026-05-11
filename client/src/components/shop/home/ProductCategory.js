@@ -1,5 +1,5 @@
 import React, { Fragment, useContext, useEffect } from "react"; // Thêm useEffect ở đây
-import { Button, Space, Typography } from "antd";
+import { Button, Space } from "antd";
 import {
   AppstoreOutlined,
   FilterOutlined,
@@ -8,8 +8,6 @@ import {
 } from "@ant-design/icons";
 import ProductCategoryDropdown from "./ProductCategoryDropdown";
 import { HomeContext } from "./index";
-
-const { Text } = Typography;
 
 const ProductCategory = (props) => {
   const { data, dispatch } = useContext(HomeContext);

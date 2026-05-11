@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect, useContext, useMemo, useState } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 import {
-  Layout,
   Row,
   Col,
   Card,

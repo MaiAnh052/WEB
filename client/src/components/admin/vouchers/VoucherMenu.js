@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { VoucherContext } from "./index";
 
 const VoucherMenu = () => {
-  const { data, dispatch } = useContext(VoucherContext);
+  const { dispatch } = useContext(VoucherContext);
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-4 mb-4">
